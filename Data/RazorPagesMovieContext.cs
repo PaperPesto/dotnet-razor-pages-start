@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using RazorPagesMovie;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace RazorPagesMovie.Data
 {
@@ -14,6 +9,6 @@ namespace RazorPagesMovie.Data
         {
         }
 
-        public DbSet<RazorPagesMovie.Movie> Movie { get; set; }
+        public DbSet<RazorPagesMovie.Models.Movie> Movie { get; set; }
     }
 }
